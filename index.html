@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ryan's Table Practice</title>
+        <style>
+            table {
+                border: dashed 2px pink;
+                /* 
+                border-color: pink;
+                border-style: dashed;
+                border-width: 2px 
+                */
+            }
+            thead {
+                background-color: lightcyan;
+
+            }
+            th {
+                padding: 5px;
+
+            }
+            tbody > tr:nth-child(odd) {
+                background-color: lightyellow;
+
+            }
+            tbody > tr:nth-child(even) {
+                background-color: lightpink;
+                
+            }
+        </style>
+    </head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Ayes
+                </th>
+                <th>
+                    Nays
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Set Game</td>
+                <td>6</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Network Puzzle</td>
+                <td>8</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Logic Grids</td>
+                <td>1</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Zebra</td>
+                <td>6</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Typing</td>
+                <td>13</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Acrostic</td>
+                <td>2</td>
+                <td>14</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
